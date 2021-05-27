@@ -12,3 +12,15 @@
     * [To see resampling images to Target Ground sampling distance, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/resample_gsd_utah.ipynb)
 
     * [To see resampling images to Target Ground sampling distance without any outputs displayed inline, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/resample_gsd_utah_without_image_output.ipynb)
+
+## Sampling Images:
+#### This notebook is for sampling a large image into sub images with Uniformly distributed rotation and X, Y coordinates.
+* Crop image at X,Y and rotate for Image data augmentation.
+* Every pixel must be sampled atleast once (do this randomly)
+* Sample is within image range
+* rotations should be distributed uniformly
+* Extract annotation and transform each annotated coordinates for each individual window extract annotations
+* Plots include 1) heatmap of sampled pixels and angles and 
+* TODO: 2) histogram for random sampled 100 pixels
+* following script is examples of sampling.
+    * [To see sampling images script to target crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/sampling_images.ipynb)
