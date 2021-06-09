@@ -13,10 +13,6 @@
 
     * [To see resampling images to Target Ground sampling distance without any outputs displayed inline, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/resample_gsd_utah_without_image_output.ipynb)
 
-* Following are the two scripts are examples of sampling images.   
-    * [To see sampled images of length a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/sample_images_with_plots.ipynb)
-
-    * [To see examples of pixel counter heatmap of sampled images of a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/match_template_pixel_counter.ipynb)
 
 ## Sampling Images:
 #### This notebook is for sampling a large image into sub images with Uniformly distributed rotation and X, Y coordinates.
@@ -27,5 +23,11 @@
 * Extract annotation and transform each annotated coordinates for each individual window extract annotations
 * Plots include 1) heatmap of sampled pixels and angles and 
 * TODO: 2) histogram for random sampled 100 pixels
-* following script is examples of sampling.
+
+* Following are the three scripts are examples of sampling images.   
     * [To see sampling images script to target crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/sampling_images.ipynb)
+
+    * [To see sampled images of length a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/sample_images_with_plots.ipynb)
+
+    * [To see examples of pixel counter heatmap of sampled images of a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/match_template_pixel_counter.ipynb)
+    
