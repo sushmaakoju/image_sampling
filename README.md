@@ -8,10 +8,15 @@
 * Lastly this script validates and displays each image, annotation file pair for compairson between source images with GSD 12.5cm/px with that each of target image, annotation file pair for Ground Sampling distance(15cm/px, 20cm/px and 30cm/px).
 * Validation also involves displaying example cropped images from given annotation location (Bounding box) to compare how the resulting resampled images with rescaled annotations differs with that of source GSD (Source GSD 12.5cm/px to any of target GSD : 15cm/px, 20cm/px and 30cm/px).
 
-* following two scripts are examples of resampling.
+* Following two scripts are examples of resampling.
     * [To see resampling images to Target Ground sampling distance, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/resample_gsd_utah.ipynb)
 
     * [To see resampling images to Target Ground sampling distance without any outputs displayed inline, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/resample_gsd_utah_without_image_output.ipynb)
+
+* Following are the two scripts are examples of sampling images.   
+    * [To see sampled images of length a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/sample_images_with_plots.ipynb)
+
+    * [To see examples of pixel counter heatmap of sampled images of a given crop length, for uniformly distributed rotation angle, X,Y pixel locations randomly sampled for transformed crop length, click here:](https://nbviewer.jupyter.org/github/sushmaakoju/image_sampling/blob/main/src/notebooks/match_template_pixel_counter.ipynb)
 
 ## Sampling Images:
 #### This notebook is for sampling a large image into sub images with Uniformly distributed rotation and X, Y coordinates.
