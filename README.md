@@ -1,5 +1,7 @@
 # image_sampling
-
+## This is repository for for CGSI project at Robotics Institute, Carnegie Mellon University.
+### Code of Conduct
+If any additional resources were used for specific implementation, it is provided in the respective implementation file. If this repository is being used, please read and follow <a href="https://github.com/sushmaakoju/image_sampling/blob/main/CODE_OF_CONDUCT.md">code of conduct guidelines</a>. Please reach out to project supervisors for additional information/guidelines.
 
 ## Resample given source image at Ground Sampling Distance D_s to target Ground Sampling Distance D_t.
 #### The scripts resample_gsd_utah and resample_gsd_utah_without_image_output are to resample images : given a set of aerial images for a Ground Sampling Distance D_s, resample these images to GSD D_target.
